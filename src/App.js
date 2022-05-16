@@ -37,6 +37,11 @@ import ReactstrapTab from './components/ReactstrapTab';
 import Sweetalert2Basic from './components/Sweetalert2Basic';
 import Sweetalert2Position from './components/Sweetalert2Position';
 import Sweetalert2Confirm from './components/Sweetalert2Confirm';
+import onClick from './components/day2/onClick';
+import onChange from './components/day2/onChange';
+import onMouseMove from './components/day2/onMouseMove';
+import onMouseOver from './components/day2/onMouseOver';
+import onMouseOut from './components/day2/onMouseOut';
 
 // import FetchGet from './components/R059_FetchGet';
 // import FetchPost from './components/R060_FetchPost';
@@ -99,6 +104,12 @@ function App() {
       {/* <CallbackFunc/>
       <Promise/>
       <Promises/> */}
+
+      <onClick />
+      <onChange />
+      <onMouseMove />
+      <onMouseOver/>
+      <onMouseOut />
     </div>
   );
 }

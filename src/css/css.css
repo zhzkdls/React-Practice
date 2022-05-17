@@ -1,0 +1,25 @@
+div.all {
+  background-color: rgb(76, 117, 120);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  font-family: 고딕;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+div.class {
+    background-color: rgb(76, 117, 120);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    font-family: 고딕;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    color: white;
+    background-color: #233c23;
+    padding: 10px;
+    font-family: 궁서;
+  }

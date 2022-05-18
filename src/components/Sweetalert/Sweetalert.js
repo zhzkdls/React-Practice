@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Swal from 'sweetalert2'
 import '../../css/css.css';
 
-class Sweetalert extends Component {
+function Sweetalert() {
   
-  componentDidMount(){
+  const componentDidMount = (e) => {
     Swal.fire('입장을 하시겠습니까?').then(result => { Swal.fire('반갑습니다') })
   }
 
-  saveAlert = (flag, positionflag, e) => {
+  const saveAlert = (flag, positionflag, e) => {
     Swal.fire({
       position: positionflag,
       icon: 'success',
@@ -18,7 +18,7 @@ class Sweetalert extends Component {
     })
   }
 
-  deletAlert = (e) => {
+  const deletAlert = (e) => {
     Swal.fire({
       title: '정말 삭제하시겠습니까?',
       icon: 'question',
@@ -39,22 +39,23 @@ class Sweetalert extends Component {
     })
   }
 
-  render() {
+  
     return (
       <div className='all'>
         <div className='class'>
           <h1>sweetalert</h1>
+          <button onClick={e => componentDidMount('입장', 'center')}>입장</button>
 
           <h1>sweetalert2</h1>
-          <button onClick={e => this.saveAlert('저장', 'center')}>저장</button>
-          <button onClick={e => this.saveAlert('수정', 'bottom-end')}>수정</button>
+          <button onClick={e => saveAlert('저장', 'center')}>저장</button>
+          <button onClick={e => saveAlert('수정', 'bottom-end')}>수정</button>
           
           <h1 id='deleteId'>sweetalert2</h1>
-          <button onClick={e => this.deletAlert()}>삭제</button>
+          <button onClick={e => deletAlert()}>삭제</button>
         </div>
       </div>
   )
-  }
+  
 }
 
 export default Sweetalert;

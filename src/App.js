@@ -6,6 +6,7 @@ import MapContainerses from "./components/MapContainerses";
 
 import OnMouseOver from "./components/on/OnMouseOver";
 import Reactstrap from "./components/reactstrap/Reactstrap";
+import Reduc from "./components/reducerse/Reduc";
 import Sweetalert from "./components/Sweetalert/Sweetalert";
 
 import NavBara from "./layout/NavBara";
@@ -29,11 +30,12 @@ function App() {
         <Route path="/eo" element={<Sweetalert />} />
         <Route path="/fo" element={<Reactstrap />} />
 
-        {/* <Route path="/bo" element={<MapContainerse />} />
-        <Route path="/bo" element={<MapContainerse />} />
-        <Route path="/bo" element={<MapContainerse />} />
+        <Route path="/go" element={<Reduc />} />
 
-        <Route path="/bo" element={<MapContainerse />} />
+        {/* <Route path="/bo" element={<MapContainerse />} />
+        <Route path="/bo" element={<MapContainerse />} /> */}
+
+        {/* <Route path="/bo" element={<MapContainerse />} />
         <Route path="/bo" element={<MapContainerse />} />
         <Route path="/bo" element={<MapContainerse />} />
         <Route path="/bo" element={<MapContainerse />} />

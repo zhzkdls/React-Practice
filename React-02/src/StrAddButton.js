@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {add} from '../actions';
+import {add} from './actions'
 
 class StrAddButton extends Component {
     render() {

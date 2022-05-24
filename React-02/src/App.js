@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import StrAddButton from './StrAddButton';
+import React, {Component} from 'react'
+import StrAddButton from './StrAddButton'
 
-class Reduc extends Component {
+class App extends Component {
     render() {
         return (
             <div>
@@ -13,4 +13,4 @@ class Reduc extends Component {
     }
 }
 
-export default Reduc;
+export default App;

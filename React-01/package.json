@@ -11,14 +11,16 @@
     "jquery": "^3.6.0",
     "react": "^16.13.1",
     "react-bootstrap": "^2.4.0",
+    "react-cookie": "^4.1.1",
+    "react-cookies": "^0.1.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "3.4.3",
-    "reactstrap": "^9.0.2",
+    "reactstrap": "^9.0.3",
     "recompose": "^0.30.0",
     "redux": "^4.2.0",
     "shallow-equal": "^1.2.1",
-    "sweetalert2": "^11.4.16"
+    "sweetalert2": "^11.4.17"
   },
   "scripts": {
     "start": "set PORT=80 && react-scripts start",

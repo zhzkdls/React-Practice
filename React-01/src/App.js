@@ -1,5 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import R085_cookieSave from "./components/cookie/R085_cookieSave";
+
 import MapContainers from "./components/MapContainers";
 import MapContainerse from "./components/MapContainerse";
 import MapContainerses from "./components/MapContainerses";
@@ -29,10 +32,9 @@ function App() {
         <Route path="/eo" element={<Sweetalert />} />
         <Route path="/fo" element={<Reactstrap />} />
 
-        {/* <Route path="/go" element={<Reduc />} /> */}
+        <Route path="/go" element={<R085_cookieSave />} />
 
-        {/* <Route path="/bo" element={<MapContainerse />} />
-        <Route path="/bo" element={<MapContainerse />} /> */}
+        {/* <Route path="/bo" element={<MapContainerse />} /> */}
 
         {/* <Route path="/bo" element={<MapContainerse />} />
         <Route path="/bo" element={<MapContainerse />} />

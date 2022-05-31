@@ -19,11 +19,11 @@ function NavBara() {
             <Nav.Link href="/ao" style={{color:"white"}}>마크</Nav.Link>
             <Nav.Link href="/bo" style={{color:"white"}}>이미지마크</Nav.Link>
             <Nav.Link href="/co" style={{color:"white"}}>이미지마크2</Nav.Link>
-            <Nav.Link href="/do" style={{color:"white"}}>On클릭</Nav.Link>
             <Nav.Link href="/eo" style={{color:"white"}}>Sweetalert</Nav.Link>
             <Nav.Link href="/fo" style={{color:"white"}}>Reactstrap</Nav.Link>
-            <Nav.Link href="/go" style={{color:"white"}}>공지사항</Nav.Link>
-            <Nav.Link href="/ho" style={{color:"white"}}>공지사항</Nav.Link>
+            <Nav.Link href="/do" style={{color:"white"}}>공지사항</Nav.Link>
+            <Nav.Link href="/io" style={{color:"white"}}>공지사항</Nav.Link>
+            <Nav.Link href="/io" style={{color:"white"}}>공지사항</Nav.Link>
             <Nav.Link href="/io" style={{color:"white"}}>공지사항</Nav.Link>
           </div>
           <Navbar.Toggle className="border-0" aria-controls="offcanvasNavbar" />
@@ -41,6 +41,13 @@ function NavBara() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav.Link className="border-bottom" href="/go">cookie</Nav.Link>
+                <Nav.Link className="border-bottom" href="/do">On클릭</Nav.Link>
+                <Nav.Link className="border-bottom" href="/post">공지사항</Nav.Link>
+                <Nav.Link className="border-bottom" href="/post">공지사항</Nav.Link>
+                <Nav.Link className="border-bottom" href="/post">공지사항</Nav.Link>
+                <Nav.Link className="border-bottom" href="/post">공지사항</Nav.Link>
+                <Nav.Link className="border-bottom" href="/post">공지사항</Nav.Link>
                 <Nav.Link className="border-bottom" href="/post">공지사항</Nav.Link>
               </Nav>
             </Offcanvas.Body>
